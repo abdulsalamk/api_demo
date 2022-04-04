@@ -40,4 +40,4 @@ jobs:
           groups: Testers
           releaseNotes: "a new version through git actions."
           file: build/app/outputs/flutter-apk/app-release.apk
-          debug: true
+          #debug: true
