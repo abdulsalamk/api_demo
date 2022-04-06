@@ -1,4 +1,5 @@
 import 'package:api_demo/views/home_page.dart';
+import 'package:api_demo/views/products_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -25,7 +26,8 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      //home: const HomePage(),
+      home: const ProductsPage(),
     );
   }
 }
@@ -46,6 +48,7 @@ class MyHomePage extends StatefulWidget {
 
   @override
   State<MyHomePage> createState() => _MyHomePageState();
+  //State<ProductsPage> createState() =>  _ProductsPageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
